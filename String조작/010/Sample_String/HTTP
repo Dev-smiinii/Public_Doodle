@@ -1,0 +1,18 @@
+GET /hello HTTP/1.1
+Content-type: application/json
+
+Hello World!
+below this line goes into body
+123
+456
+789
+
+method: GET
+path: /hello
+version: HTTP/1.1
+Content-type: application/json
+body: 'Hello World!
+below this line goes into body
+123
+456
+789'
